@@ -201,6 +201,9 @@
          div.first img {
              max-width: 70%;
              max-height: 20%;
+             border: 1px solid #ddd;
+             border-radius: 4%;
+             padding: 2%;
          }
          
          p {
@@ -426,6 +429,10 @@
              div.first img {
                  order: 1;
                  max-width: 100%;
+             }
+             article section div span {
+                 margin: 1%;
+                 text-align: center;
              }
              div.first span.previous {
                  order: 2;

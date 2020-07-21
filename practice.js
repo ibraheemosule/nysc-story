@@ -14,7 +14,7 @@ function func() {
         }
     }
 }
-var c = setInterval(func, 3000);
+var c = setInterval(func, 5000);
 
 var d = document.getElementsByClassName("previous")[0];
 var e = document.getElementsByClassName("next")[0];
