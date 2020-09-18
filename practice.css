@@ -204,12 +204,13 @@
          }
          
          div.first img {
-             max-width: 70%;
-             max-height: 20%;
-             border: 1px solid #ddd;
-             border-radius: 4%;
-             padding: 2%;
-         }
+            width: 100%;
+            height: 250px;
+            border: 1px solid #ddd;
+            object-fit: fill;
+            border-radius: 4%;
+            padding: 2%;
+        }
          
          p {
              text-align: justify;

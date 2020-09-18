@@ -9,11 +9,10 @@ function func() {
     if (b < images.length) {
         a[1].setAttribute("src", images[b]);
         b++;
-        if (b === images.length) {
-            b = 0;
-        }
-    }
-}
+    } else {
+        b = 0;
+    };
+};
 var c = setInterval(func, 5000);
 
 var d = document.getElementsByClassName("previous")[0];
@@ -35,7 +34,7 @@ function forward() {
     clearInterval(func);
     b++;
 
-    if (b == images.length) {
+    if (b === images.length) {
         b = 0;
         a[1].setAttribute("src", images[b]);
         b++;
