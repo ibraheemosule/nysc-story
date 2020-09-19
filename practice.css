@@ -2,14 +2,11 @@
              box-sizing: border-box;
          }
          /*styling of the body tag*/
-         
-         html {
-             background: linear-gradient( aquamarine 40%, rgb(128, 77, 77)) no-repeat;
-         }
-         
          body {
+            background: linear-gradient( aquamarine 40%, rgb(128, 77, 77)) no-repeat;
              margin: 0px;
              padding: 0px;
+             padding-bottom: 20%;
              height: 100%;
              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
          }
