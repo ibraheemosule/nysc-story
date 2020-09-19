@@ -22,7 +22,7 @@ function previous() {
     clearInterval(func);
     b--;
 
-    if (b == 0 || b < 0) {
+    if (b === 0 || b < 0) {
         b = images.length - 1;
         a[1].setAttribute("src", images[b]);
     } else {
